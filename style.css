@@ -1,0 +1,161 @@
+body{
+    width: auto;
+    border: 1px solid black;
+}
+
+h1{
+    width:auto;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.flex {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.box1 {
+    width: 325px;
+    
+    height: 150px;
+    background: rgb(30, 142, 147);
+}
+.box2 {
+    width: 325px;
+    height: 150px;
+    background: rgb(30, 142, 147);
+}
+.box3 {
+    width: 325px;
+    height: 150px;
+    background: rgb(30, 142, 147);
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 27px;
+}
+.box {
+    width: 1029px;
+    height: 300px;
+    background: rgb(30, 142, 147);
+    
+    
+}
+
+.circle-pink1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(250, 124, 126); 
+    position: fixed;
+    top: 190px;
+    left: 310px;
+    
+  }
+
+  .circle-pink2{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:  rgb(250, 124, 126); 
+    position: fixed;
+    top: 90px;
+    left: 60px;
+    
+  }
+
+  .circle-pink3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:  rgb(250, 124, 126); 
+    position: fixed;
+    top: 207px;
+    left: 60px;
+    
+  }
+
+  .circle-pink4{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(250, 124, 126); 
+    position: fixed;
+    top: 110px;
+    left: 410px;
+    
+  }
+
+  .circle-yellow1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 213, 90); 
+    position: fixed;
+    top: 110px;
+    left: 200px;
+    
+  }
+
+  .circle-yellow2{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(255, 213, 90); 
+    position: fixed;
+    top: 50%;
+    left: 200px;
+   
+  }
+
+  .triangle-green{
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 400px solid rgb(31, 115, 52);
+    z-index: 1;
+    position: fixed;
+    top: 167px;
+    left: 600px;
+    
+  }
+
+  .triangle-yellow{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 250px solid rgb(199, 218, 99);
+    z-index: 1;
+    position: fixed;
+    top: 319px;
+    left: 850px;
+  }
+
+  
+@media screen and (max-width: 480px) {
+    html {
+      
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1023px) {
+    html {
+      
+    }
+  }
+  
+  @media screen and (min-width: 1680px) {
+    html {
+      
+    }
+  }
+  
