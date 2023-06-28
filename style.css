@@ -146,14 +146,14 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 27px;
-    z-index: 1;
+    margin-top: 1px;
+  
   }
 
   .box4{
     width: 1029px;
     height: 20px;
-    background: aqua;
+    background: rgb(199, 218, 99);
     z-index: 1;
   }
 
